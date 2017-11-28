@@ -5,7 +5,7 @@
 # an existing definion of the variable. In case such a variable is found it is
 # redifined. If <<- does not find such an existing variable it will creat the
 # variable in the global environment.
-
+#
 makeCacheMatrix <- function(x = matrix()) {
         # This function, creates a special 'matrix', which is a list containing a
         # function to a) set the value of the matrix, b) get the value of the matrix, c)
