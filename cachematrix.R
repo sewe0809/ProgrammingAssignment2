@@ -8,11 +8,15 @@
 # an existing definion of the variable. In case such a variable is found it is
 # redifined. If <<- does not find such an existing variable it will creat the
 # variable in the global environment.
+<<<<<<< HEAD
 #
 =======
 ## Write a short comment describing this function
 
 >>>>>>> parent of 340993c... 2017-02-17
+=======
+
+>>>>>>> parent of 88842c5... a
 makeCacheMatrix <- function(x = matrix()) {
 
         m <- NULL
